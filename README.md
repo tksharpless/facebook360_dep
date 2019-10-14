@@ -1,5 +1,17 @@
 <img width="100%" src="website/static/img/dep_logo.png" alt="DEP Logo" class="center" />
 
+This is a fork for the purpose of developing a native Windows build using cmake and vcpkg.
+
+At 10/14/2019 it was almost fully automated, including vcpkg install of all required packages,
+however building the unit tests requires a manual step due to an obscure bug in the vcpkg
+package for gtest.
+
+  -- this is NOT an official facebook release;
+  
+  -- it builds native Windows executables as opposed to a portable Docker package;
+  
+  -- it is supposed to be functionally identical to the master Linux builds.
+  
 --------------------------------------------------------------------------------
 
 Facebook360 Depth Estimation Pipeline (facebook360_dep) is a computational imaging software pipeline
